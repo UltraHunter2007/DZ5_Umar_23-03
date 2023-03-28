@@ -27,5 +27,5 @@ const convertCurrency = (elem, target1, target2, isTrue) => {
 }
 
 convertCurrency(som, usd, euro, true)
-convertCurrency(usd, som, euro,false)
+convertCurrency(usd, som, euro, false)
 convertCurrency(euro, som, usd, null)
