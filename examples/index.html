@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .wrapper > div{
+            display: flex;
+            flex-direction: column;
+        }
+        .euro{
+            margin-top: 50px;
+        }
+        .usd{
+            margin-top: 50px;
+        }
+        input{
+            font-size: 20px;
+        }
+        label{
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="som">
+            <label for="som">Som</label>
+            <input type="number" id="som">
+        </div>
+        <div class="usd">
+            <label for="usd">Usd</label>
+            <input type="number" id="usd">
+        </div>
+        <div class="euro">
+            <label for="euro">Euro</label>
+            <input type="number" id="euro">
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
